@@ -23,7 +23,7 @@ export default function Nav() {
                     <li>
                         <a className='flex flex-col md:border-l-2 border-slate-700 hover:border-white active:border-white md:pl-6 transition-all duration-200 ease-in-out h-[44px] justify-center' href='#experience'>
                             <span className='text-slate-400 text-xl'>Experience</span>
-                            <span className='text-xs'>Were I have worked</span>
+                            <span className='text-xs'>Where I have worked</span>
                         </a>
                     </li>
                     <li>
