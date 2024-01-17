@@ -21,9 +21,9 @@ export function Hamburger(props: HamburgerProps) {
 
     return (
         <button onClick={handleClick} type="button" className="w-8 h-8 flex justify-around flex-col flex-wrap z-10 cursor-pointer" >
-            <div className={`bg-white block w-8 h-[0.35rem] rounded transition-all origin-[1px] ${isOpen ? 'rotate-45' : 'rotate-0'}`} />
-            <div className={`bg-white block w-8 h-[0.35rem] rounded transition-all origin-[1px] ${isOpen ? 'translate-x-full bg-transparent' : 'translate-x-0'}`} />
-            <div className={`bg-white block w-8 h-[0.35rem] rounded transition-all origin-[1px] ${isOpen ? 'rotate-[-45deg]' : 'rotate-0'}`} />
+            <div className="bg-white block w-8 h-[0.35rem] rounded transition-all origin-[1px]" />
+            <div className="bg-white block w-8 h-[0.35rem] rounded transition-all origin-[1px]" />
+            <div className="bg-white block w-8 h-[0.35rem] rounded transition-all origin-[1px]"/>
         </button>
     );
 };

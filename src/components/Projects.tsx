@@ -7,13 +7,13 @@ export default function Projects() {
             <a className="flex gap-6 w-full hover:-translate-y-3 transition-all ease-out duration-300" href="https://github.com/DominicOrsi/F1-Stats-App" target="_blank">
                 <img src="/assets/f1-stats-app.png" className="h-32 rounded-md" />
                 <div className="flex-row">
-                    <p className="font-bold text-slate-100">Formula One Statistics App</p>
+                    <p className="text-slate-100 text-lg">Formula One Statistics App</p>
                     <p className="text-sm">Built with Kotlin and Supabase for Android</p>
                 </div>
             </a>
             <a className="flex gap-6 w-full hover:-translate-y-3 transition-all ease-out duration-300" href="https://github.com/DominicOrsi/Multiplayer-Yahtzee" target="_blank">
                 <div className="flex-row-reverse">
-                    <p className="font-bold text-slate-100">Multiplayer Yahtzee</p>
+                    <p className="text-slate-100 text-lg">Multiplayer Yahtzee</p>
                     <p className="text-sm">Built with Java and Java Swing</p>
                 </div>
                 <img src="/assets/multiplayer-yahtzee.png" className="h-32 rounded-md" />
@@ -21,13 +21,13 @@ export default function Projects() {
             <a className="flex gap-6 w-full hover:-translate-y-3 transition-all ease-out duration-300" href="https://github.com/DominicOrsi/Apache-Guacamole-Server" target="_blank">
                 <img src="/assets/apache-gauc-shell.png" className="h-32 rounded-md" />
                 <div className="flex-row">
-                    <p className="font-bold text-slate-100">Apache Guacamole Script</p>
+                    <p className="text-slate-100 text-lg">Apache Guacamole Script</p>
                     <p className="text-sm">Shell script to configure and setup Apache Guacamole server</p>
                 </div>
             </a>
-            <a className="flex gap-6 w-full hover:-translate-y-3 transition-all ease-out duration-300" href="https://github.com/DominicOrsi/Multiplayer-Yahtzee" target="_blank">
+            <a className="flex gap-6 w-full hover:-translate-y-3 transition-all ease-out duration-300" href="https://github.com/DominicOrsi/Linux-Mint-Setup" target="_blank">
                 <div className="flex-row-reverse">
-                    <p className="font-bold text-slate-100">Linux Mint Install Script</p>
+                    <p className="text-slate-100 text-lg">Linux Mint Install Script</p>
                     <p className="text-sm">Shell script to configure install and packages onto Linux Mint</p>
                 </div>
                 <img src="/assets/mint-shell.png" className="h-32 rounded-md" />

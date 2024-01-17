@@ -4,6 +4,8 @@ import Projects from "./Projects";
 import Experience from "./Experience";
 import Footer from "./Footer";
 import Contact from "./Contact";
+import SideAbout from "./Side-About";
+import InlineAbout from "./Inline-About";
 
 
 export default function Main() {
@@ -15,8 +17,10 @@ export default function Main() {
                     <About />
                     <Projects />
                     <Experience />
+                    <InlineAbout />
                     <Contact />
                 </div>
+                <SideAbout />
             </div>
             <Footer />
         </>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Nav from "./components/Nav";
 import { Hamburger } from "./components/Hamburger";
 import Main from "./components/Main";
+import HamburgerMenu from "./components/temp/HamburgerMenu";
 
 function App() {
     const [isMenuVisible, setMenuVisibility] = useState(false);
@@ -12,6 +13,7 @@ function App() {
 
     return (
         <>
+            <HamburgerMenu visible={isMenuVisible} />
             <div className="w-full h-3 bg-green-500"></div>
             <div className="w-full h-3 bg-green-700"></div>
             <div className="w-full h-3 bg-green-900"></div>
