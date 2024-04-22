@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Nav from "./components/Nav";
-import { Hamburger } from "./components/Hamburger";
-import Main from "./components/Main";
-import HamburgerMenu from "./components/HamburgerMenu";
+import Nav from "./sections/Nav";
+import { Hamburger } from "./sections/Hamburger";
+import Main from "./sections/Main";
+import HamburgerMenu from "./sections/HamburgerMenu";
 
 function App() {
     const [isMenuVisible, setMenuVisibility] = useState(false);
