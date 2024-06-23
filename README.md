@@ -24,12 +24,16 @@ This page serves as a way for me communicate my skills, hobbies, and projects to
 ## Project Setup/Install
 - Install all packages for development
 
-`npm install`
+```
+npm install
+```
 
 ### Compile and Hot-Reload for Development
 - Serves the webpage on localhost port 5173
 
-`npm run dev`
+```
+npm run dev
+```
 
 ### Deployment
 - Merge into main branch and [GitHub action](.github/workflows/firebase-hosting-merge.yml) will run to serve the new webpage to firebase.
