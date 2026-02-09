@@ -9,7 +9,7 @@ export default function Experience() {
             <h2 className="font-gloria text-2xl ">Experience</h2>
             <div className="flex flex-col gap-8">
                 <ExperienceComp
-                    jobTitle="Assocaite System Administrator"
+                    jobTitle="Associate System Administrator"
                     company="Expeditors"
                     startToEndDate="October 2024 - Present"
                     description="I managed 3,500+ Unix servers, ensuring reliability and efficient resource allocation across a global infrastructure. I performed system upgrades, including adding storage, RAM, CPU, and swap space, to enhance machine performance and support growing workloads. I proactively diagnosed and resolved system issues, minimizing downtime and ensuring continuous operations. Additionally, I developed automation solutions using Python, Bash, and Ansible playbooks, streamlining repetitive administrative tasks and freeing up valuable team time."
