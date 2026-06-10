@@ -1,5 +1,5 @@
 import React from 'react';
-import NavComp from './components/NavComp';
+import NavLinks from './components/NavLinks';
 
 export default function Nav() {
     return (
@@ -9,22 +9,7 @@ export default function Nav() {
             </div>
             <nav className='border-l-2 border-slate-700 md:sticky md:top-4'>
                 <ul className='flex flex-col gap-8 ml-[-2px]'>
-                    <NavComp 
-                        title="About"
-                        description="Info about me"
-                    />
-                    <NavComp 
-                        title="Projects"
-                        description="Things I have made"
-                    />
-                    <NavComp 
-                        title="Experience"
-                        description="Where I have worked"
-                    />
-                    <NavComp 
-                        title="Contact"
-                        description="How to contact me"
-                    />
+                    <NavLinks />
                 </ul>
             </nav>
         </div>

@@ -13,7 +13,7 @@ function App() {
 
     return (
         <>
-            <HamburgerMenu visible={isMenuVisible} />
+            <HamburgerMenu visible={isMenuVisible} onClose={handleToggleMenu} />
             <div className="w-full h-3 bg-green-500"></div>
             <div className="w-full h-3 bg-green-700"></div>
             <div className="w-full h-3 bg-green-900"></div>

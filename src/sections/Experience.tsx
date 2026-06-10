@@ -9,31 +9,37 @@ export default function Experience() {
             <h2 className="font-gloria text-2xl ">Experience</h2>
             <div className="flex flex-col gap-8">
                 <ExperienceComp
-                    jobTitle="Associate System Administrator"
+                    jobTitle="Linux Systems Engineer"
                     company="Expeditors"
                     startToEndDate="October 2024 - Present"
-                    description="I managed 3,500+ Unix servers, ensuring reliability and efficient resource allocation across a global infrastructure. I performed system upgrades, including adding storage, RAM, CPU, and swap space, to enhance machine performance and support growing workloads. I proactively diagnosed and resolved system issues, minimizing downtime and ensuring continuous operations. Additionally, I developed automation solutions using Python, Bash, and Ansible playbooks, streamlining repetitive administrative tasks and freeing up valuable team time."
-                />
-                <hr className="h-px w-9/12 bg-slate-200 self-center" />
-                <ExperienceComp
-                    jobTitle="IT Customer Support"
-                    company="Washington State Univeristy"
-                    startToEndDate="May 2024 - September 2024"
-                    description="I  provided technical assistance to 1,300+ students and faculty, ensuring the smooth operation of hardware, software, and network resources across university labs and offices. I managed and prioritized IT support tickets using Jira, escalating critical issues to maintain efficiency and streamline workflows. Additionally, I delivered phone and in-person support, guiding users through troubleshooting steps and documenting resolutions for future reference. I also assisted with system updates and software installations, ensuring compliance with university policies and security best practices."
+                    bullets={[
+                        "Optimized the reliability of 3,500+ global Unix/Linux servers by designing and executing automated patching schedules, ensuring continuous security compliance for large-scale enterprise workloads.",
+                        "Performed deep-dive troubleshooting and hardware/resource tuning (CPU, RAM, Swap) to accommodate growing production workloads and ensured 99.9% uptime.",
+                        "Led the modernization of internal toolsets by migrating legacy scripts to Python 3, enhancing system maintainability and long-term compatibility.",
+                        "Developed an automated alerting pipeline using Ansible and Python that detects when cybersecurity monitoring tools are offline or not running, and distributes email alerts to affected system owners and stakeholders.",
+                        "Built an internal web dashboard used by 20+ engineers, consolidating 5 CLI tools (Active Directory user/group lookups, vSphere VM search via SOAP API, and a dynamic inventory system) behind a role-based access control system, eliminating context switching and standardizing access to critical infrastructure tooling.",
+                        "Replaced a static YAML inventory file with a searchable, sortable database that auto-syncs via GitLab CI on each commit, giving the team real-time visibility into infrastructure inventory.",
+                    ]}
                 />
                 <hr className="h-px w-9/12 bg-slate-200 self-center" />
                 <ExperienceComp
                     jobTitle="Junior System Administrator"
                     company="Gonzaga University"
                     startToEndDate="December 2021 - May 2024"
-                    description="I have extensive experience supporting a diverse community of 500+ students and faculty in their day-to-day operations and lab activities. Additionally, I have successfully implemented a custom Linux image to cater to the needs of over 100 students across two classrooms, ensuring efficient software and hardware deployment. My expertise also extends to configuring and automating software and operating systems, as well as proactively maintaining and upgrading them to guarantee optimal performance and security."
+                    bullets={[
+                        "Constructed and deployed a custom Linux image that served over 100 students in multiple classroom environments.",
+                        "Supported 500+ students and faculty with software and hardware in day-to-day operations and labs.",
+                    ]}
                 />
                 <hr className="h-px w-9/12 bg-slate-200 self-center" />
                 <ExperienceComp
                     jobTitle="Fiber Optic Technician"
                     company="Rock Island Communications"
                     startToEndDate="May 2023 - August 2023"
-                    description="I have hands-on experience in installing both outside plant and in-home fiber-optic services, including the splicing and patching of customers' fiber optic connections to seamlessly integrate them into the network. Additionally, I am proficient in troubleshooting communication issues and ensuring smooth interactions with customers directly at their locations."
+                    bullets={[
+                        "Installed outside plant and in-home fiber-optic services, including splicing and patching customer fiber optic connections into the network.",
+                        "Troubleshot communication issues and interfaced directly with customers at their locations.",
+                    ]}
                 />
             </div>
         </div>
