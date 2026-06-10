@@ -12,7 +12,7 @@ export interface HamburgerProps {
 
 export function Hamburger(props: HamburgerProps) {
     const { onClick, isInitiallyOpen = false } = props;
-    const [isOpen, setIsOpen] = useState<boolean>(isInitiallyOpen ?? false);
+    const [isOpen, setIsOpen] = useState<boolean>(isInitiallyOpen);
 
     const handleClick = () => {
         setIsOpen(prev => !prev);
