@@ -5,7 +5,7 @@ export default function NavLinks() {
     return (
         <>
             <NavComp title="About" description="Info about me" />
-            <NavComp title="Projects" description="Things I have made" />
+            <NavComp title="Projects & Certs" description="Things I have made and earned" id="projects-certifications" />
             <NavComp title="Experience" description="Where I have worked" />
             <NavComp title="Contact" description="How to contact me" />
         </>

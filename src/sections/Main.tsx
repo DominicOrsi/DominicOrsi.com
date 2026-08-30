@@ -1,6 +1,6 @@
 import React from "react";
 import About from "./About";
-import Projects from "./Projects";
+import ProjectsCertifications from "./ProjectsCertifications";
 import Experience from "./Experience";
 import Footer from "./Footer";
 import Contact from "./Contact";
@@ -15,7 +15,7 @@ export default function Main() {
             <div className="flex gap-8">
                 <div className="flex flex-col gap-8 max-w-lg">
                     <About />
-                    <Projects />
+                    <ProjectsCertifications />
                     <Experience />
                     <InlineAbout />
                     <Contact />
