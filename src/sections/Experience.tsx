@@ -13,12 +13,9 @@ export default function Experience() {
                     company="Expeditors"
                     startToEndDate="October 2024 - Present"
                     bullets={[
-                        "Optimized the reliability of 3,500+ global Unix/Linux servers by designing and executing automated patching schedules, ensuring continuous security compliance for large-scale enterprise workloads.",
-                        "Performed deep-dive troubleshooting and hardware/resource tuning (CPU, RAM, Swap) to accommodate growing production workloads and ensured 99.9% uptime.",
-                        "Led the modernization of internal toolsets by migrating legacy scripts to Python 3, enhancing system maintainability and long-term compatibility.",
-                        "Developed an automated alerting pipeline using Ansible and Python that detects when cybersecurity monitoring tools are offline or not running, and distributes email alerts to affected system owners and stakeholders.",
-                        "Built an internal web dashboard used by 20+ engineers, consolidating 5 CLI tools (Active Directory user/group lookups, vSphere VM search via SOAP API, and a dynamic inventory system) behind a role-based access control system, eliminating context switching and standardizing access to critical infrastructure tooling.",
-                        "Replaced a static YAML inventory file with a searchable, sortable database that auto-syncs via GitLab CI on each commit, giving the team real-time visibility into infrastructure inventory.",
+                        "Maintain 3,500+ Unix/Linux servers across a global infrastructure, ensuring 99.99% uptime through automated patching and proactive monitoring.",
+                        "Designed and built an internal web dashboard consolidating 5 CLI tools into a single role-based interface, adopted by 20+ engineers.",
+                        "Developed automated alerting and inventory systems using Python and Ansible, reducing manual oversight and improving infrastructure visibility.",
                     ]}
                 />
                 <hr className="h-px w-9/12 bg-slate-200 self-center" />
@@ -27,8 +24,8 @@ export default function Experience() {
                     company="Gonzaga University"
                     startToEndDate="December 2021 - May 2024"
                     bullets={[
-                        "Constructed and deployed a custom Linux image that served over 100 students in multiple classroom environments.",
-                        "Supported 500+ students and faculty with software and hardware in day-to-day operations and labs.",
+                        "Built and deployed a custom Linux image supporting 100+ students across multiple classroom environments.",
+                        "Provided technical support to 500+ students and faculty, resolving hardware and software issues in day-to-day operations.",
                     ]}
                 />
                 <hr className="h-px w-9/12 bg-slate-200 self-center" />
@@ -37,8 +34,7 @@ export default function Experience() {
                     company="Rock Island Communications"
                     startToEndDate="May 2023 - August 2023"
                     bullets={[
-                        "Installed outside plant and in-home fiber-optic services, including splicing and patching customer fiber optic connections into the network.",
-                        "Troubleshot communication issues and interfaced directly with customers at their locations.",
+                        "Installed and spliced outside plant and in-home fiber-optic connections, troubleshooting service issues on-site with customers.",
                     ]}
                 />
             </div>
